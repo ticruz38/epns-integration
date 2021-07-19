@@ -40,9 +40,6 @@ export default {
       blockGasLimit: 0x1fffffffffffff,
       allowUnlimitedContractSize: true,
       timeout: 1800000,
-      forking: {
-        url: "https://eth-mainnet.alchemyapi.io/v2/Ew27_E0Lg-8griqid-h-59j5MNwZ6hjE",
-      },
     },
   },
   // gasReporter: {
