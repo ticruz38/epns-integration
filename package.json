@@ -1,0 +1,30 @@
+{
+  "name": "epns-integration",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^3.3.0",
+    "@typechain/ethers-v5": "^6.0.5",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.0.24",
+    "hardhat": "^2.3.0",
+    "hardhat-gas-reporter": "^1.0.4",
+    "hardhat-typechain": "^0.3.5",
+    "nodemon": "^2.0.12",
+    "ts-loader": "^8.0.18",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.0.0",
+    "typechain": "^4.0.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@epnsproject/backend-sdk": "^1.0.19",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "web3-utils": "^1.3.6"
+  }
+}
